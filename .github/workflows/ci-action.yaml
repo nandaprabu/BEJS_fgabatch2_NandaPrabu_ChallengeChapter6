@@ -26,5 +26,4 @@ jobs:
       run: |
         railway up --service be-chptr-6
 
-    - name: Setup database
-      run: railway run --service be-chptr-6 npx prisma migrate deploy
+
